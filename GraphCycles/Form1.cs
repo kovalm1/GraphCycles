@@ -100,8 +100,9 @@ namespace GraphCycles
 
         private void button5_Click(object sender, EventArgs e)
         {
+            //Домашнее задание, обратный пучок.
             pen = new Pen(Color.OliveDrab);
-            for (int c = 0; c <= 600; c += 20)
+            for (int c = 600; c >= 0; c -= 20)
             {
                 DrawLine(600, 600, 0, c);
             }
